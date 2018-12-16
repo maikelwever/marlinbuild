@@ -1,0 +1,3 @@
+<a href="/{{ build.manufacturer.lower() }}/{{ build.printer.lower() }}/{{ build.filename_base }}.hex">{{ build.version_string }}</a>
+<a target="_blank" class="badge badge-light" href="/{{ build.manufacturer.lower() }}/{{ build.printer.lower() }}/{{ build.filename_base }}.txt">build log</a>
+<a href="#" class="badge badge-pill badge-light" data-toggle="replacewith" data-content="{{ build.sha256sum }}">sha256sum</a>

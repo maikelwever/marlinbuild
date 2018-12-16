@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}{{ manufacturer }} {{ printer }}{% endblock %}
+
+{% block tour_title %}Prebuilts for {{ manufacturer }} {{ printer }}{% endblock %}
+{% block tour_underline %}Community-made preconfigured builds of Marlin Firmware for {{ manufacturer }} {{ printer }}.{% endblock %}
+
+{% block main_content %}
+<a name="printers"></a>
+<div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto">
+    <div class="offset-sm-3 col-sm-6">
+        <table class="table table-striped table-bordered">
+            <tbody>
+                {% for channel, channel_builds in builds.items() %}
+                <tr>
+                    <td colspan="1" class="text-center no-valign"><h4>{{ channel }}</h4></td>
+                    <td colspan="3">
+                        <ul>
+                            {% for build in channel_builds %}
+                            <li>{% include "build_link.html" %}</li>
+                            {% endfor %}
+                        </ul>
+                    </td>
+                    {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

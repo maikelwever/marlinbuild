@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}{{ manufacturer }}{% endblock %}
+
+{% block tour_title %}Prebuilts for {{ manufacturer }} printers{% endblock %}
+{% block tour_underline %}Community-made preconfigured builds of Marlin Firmware for {{ manufacturer }} 3d printers.{% endblock %}
+
+{% block main_content %}
+<a name="printers"></a>
+<div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto">
+    <p class="lead text-center">Your model not listed here? Help others out by adding a configuration for it!</p>
+
+    <div class="offset-sm-3 col-sm-6">
+        <table class="table table-striped table-bordered">
+            <tbody>
+                {% for printer, printer_config in printers.items() %}
+                <tr>
+                    <td colspan="1" class="text-center no-valign"><h4><a href="{{ printer.lower() }}/">{{ manufacturer }} {{ printer }}</a></h4></td>
+                    <td colspan="3">
+                        <ul>
+                            {% for channel, channel_builds in builds[printer].items() %}
+                                {% with build=channel_builds[0] %}
+                                <li>{% include "build_link.html" %}</li>
+                                {% endwith %}
+                            {% endfor %}
+                        </ul>
+                    </td>
+                    {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
