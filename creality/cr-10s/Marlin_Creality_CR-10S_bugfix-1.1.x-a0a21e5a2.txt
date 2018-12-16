@@ -1,0 +1,341 @@
+Sun Dec 16 19:34:28 UTC 2018
+Processing megaatmega2560 (platform: atmelavr; board: megaatmega2560; framework: arduino)
+------------------------------------------------------------------------------------------------------------------------------------
+LibraryManager: Installing dev
+Downloading...
+Unpacking
+Unpacking
+LibraryManager: Installing id=576 @ 1.1.2
+Unpacking
+Unpacking
+LibraryManager: Installing id=1493
+Unpacking
+Unpacking
+LibraryManager: Installing v0.1.1
+Unpacking
+Unpacking
+LibraryManager: Installing id=28 @ 1.1.3
+Unpacking
+Unpacking
+LibraryManager: Installing 30aa480
+Unpacking
+Unpacking
+LibraryManager: Installing master
+Unpacking
+Unpacking
+LibraryManager: Installing c1921b4
+Unpacking
+Unpacking
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/atmelavr/megaatmega2560.html
+PLATFORM: Atmel AVR > Arduino Mega or Mega 2560 ATmega2560 (Mega 2560)
+HARDWARE: ATMEGA2560 16MHz 8KB RAM (248KB Flash)
+Converting Marlin.ino
+Library Dependency Finder -> http://bit.ly/configure-pio-ldf
+LDF MODES: FINDER(chain) COMPATIBILITY(soft)
+Collected 32 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- <U8glib-HAL> 0.4
+|   |-- <Wire> 1.0
+|   |-- <SPI> 1.0
+|-- <LiquidCrystal_I2C>
+|   |-- <Wire> 1.0
+|-- <TMC2130Stepper> 2.5.0
+|   |-- <SPI> 1.0
+|-- <TMC2208Stepper> 0.1.1
+|-- <Adafruit NeoPixel> 1.1.3
+|-- <30aa480>
+|   |-- <Wire> 1.0
+|-- <Arduino-L6470> 0.6.2
+|   |-- <SPI> 1.0
+|-- <c1921b4>
+|   |-- <SPI> 1.0
+|-- <SPI> 1.0
+|-- <SoftwareSerial> 1.0
+|-- <Wire> 1.0
+|-- <LiquidCrystal> 1.0.5
+Compiling .pioenvs/megaatmega2560/src/G26_Mesh_Validation_Tool.cpp.o
+Compiling .pioenvs/megaatmega2560/src/I2CPositionEncoder.cpp.o
+Compiling .pioenvs/megaatmega2560/src/M100_Free_Mem_Chk.cpp.o
+Compiling .pioenvs/megaatmega2560/src/Marlin.ino.cpp.o
+Compiling .pioenvs/megaatmega2560/src/MarlinSerial.cpp.o
+Compiling .pioenvs/megaatmega2560/src/Marlin_main.cpp.o
+Compiling .pioenvs/megaatmega2560/src/Max7219_Debug_LEDs.cpp.o
+Compiling .pioenvs/megaatmega2560/src/Sd2Card.cpp.o
+Compiling .pioenvs/megaatmega2560/src/SdBaseFile.cpp.o
+Compiling .pioenvs/megaatmega2560/src/SdFatUtil.cpp.o
+Compiling .pioenvs/megaatmega2560/src/SdFile.cpp.o
+Compiling .pioenvs/megaatmega2560/src/SdVolume.cpp.o
+Compiling .pioenvs/megaatmega2560/src/blinkm.cpp.o
+Compiling .pioenvs/megaatmega2560/src/cardreader.cpp.o
+Compiling .pioenvs/megaatmega2560/src/configuration_store.cpp.o
+Compiling .pioenvs/megaatmega2560/src/dac_mcp4728.cpp.o
+Compiling .pioenvs/megaatmega2560/src/digipot_mcp4018.cpp.o
+Compiling .pioenvs/megaatmega2560/src/digipot_mcp4451.cpp.o
+Compiling .pioenvs/megaatmega2560/src/emergency_parser.cpp.o
+Compiling .pioenvs/megaatmega2560/src/endstops.cpp.o
+Compiling .pioenvs/megaatmega2560/src/fwretract.cpp.o
+Compiling .pioenvs/megaatmega2560/src/hex_print_routines.cpp.o
+Compiling .pioenvs/megaatmega2560/src/least_squares_fit.cpp.o
+Compiling .pioenvs/megaatmega2560/src/leds.cpp.o
+Compiling .pioenvs/megaatmega2560/src/malyanlcd.cpp.o
+Compiling .pioenvs/megaatmega2560/src/mesh_bed_leveling.cpp.o
+Compiling .pioenvs/megaatmega2560/src/neopixel.cpp.o
+Compiling .pioenvs/megaatmega2560/src/nozzle.cpp.o
+Compiling .pioenvs/megaatmega2560/src/parser.cpp.o
+Compiling .pioenvs/megaatmega2560/src/pca9632.cpp.o
+Compiling .pioenvs/megaatmega2560/src/planner.cpp.o
+Compiling .pioenvs/megaatmega2560/src/planner_bezier.cpp.o
+Compiling .pioenvs/megaatmega2560/src/power.cpp.o
+Compiling .pioenvs/megaatmega2560/src/power_loss_recovery.cpp.o
+Compiling .pioenvs/megaatmega2560/src/printcounter.cpp.o
+Compiling .pioenvs/megaatmega2560/src/runout.cpp.o
+Compiling .pioenvs/megaatmega2560/src/serial.cpp.o
+Compiling .pioenvs/megaatmega2560/src/servo.cpp.o
+Compiling .pioenvs/megaatmega2560/src/stepper.cpp.o
+Compiling .pioenvs/megaatmega2560/src/stepper_dac.cpp.o
+Compiling .pioenvs/megaatmega2560/src/stepper_indirection.cpp.o
+Compiling .pioenvs/megaatmega2560/src/stopwatch.cpp.o
+Compiling .pioenvs/megaatmega2560/src/temperature.cpp.o
+Compiling .pioenvs/megaatmega2560/src/tmc_util.cpp.o
+Compiling .pioenvs/megaatmega2560/src/twibus.cpp.o
+Compiling .pioenvs/megaatmega2560/src/ubl.cpp.o
+Compiling .pioenvs/megaatmega2560/src/ubl_G29.cpp.o
+Compiling .pioenvs/megaatmega2560/src/ubl_motion.cpp.o
+Compiling .pioenvs/megaatmega2560/src/ultralcd.cpp.o
+Compiling .pioenvs/megaatmega2560/src/utility.cpp.o
+Compiling .pioenvs/megaatmega2560/src/vector_3.cpp.o
+Compiling .pioenvs/megaatmega2560/src/watchdog.cpp.o
+Compiling .pioenvs/megaatmega2560/libdb7/Wire/Wire.cpp.o
+Compiling .pioenvs/megaatmega2560/libdb7/Wire/utility/twi.c.o
+Compiling .pioenvs/megaatmega2560/libfda/SPI/SPI.cpp.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/U8glib.cpp.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/U8glibPrint.cpp.o
+Archiving .pioenvs/megaatmega2560/libdb7/libWire.a
+Archiving .pioenvs/megaatmega2560/libfda/libSPI.a
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/chessengine.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_bitmap.c.o
+Indexing .pioenvs/megaatmega2560/libdb7/libWire.a
+Indexing .pioenvs/megaatmega2560/libfda/libSPI.a
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_circle.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_clip.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_api.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_api_16gr.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_arduino_attiny85_hw_spi.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_arduino_common.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_arduino_fast_parallel.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_arduino_hw_spi.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_arduino_hw_usart_spi.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_arduino_no_en_parallel.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_arduino_parallel.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_arduino_port_d_wr.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_arduino_ssd_i2c.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_arduino_st7920_custom.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_arduino_st7920_hw_spi.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_arduino_st7920_spi.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_arduino_std_sw_spi.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_arduino_sw_spi.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_arduino_t6963.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_arduino_uc_i2c.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_atmega_hw_spi.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_atmega_parallel.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_atmega_st7920_hw_spi.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_atmega_st7920_spi.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_atmega_sw_spi.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_atxmega_hw_spi.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_atxmega_st7920_hw_spi.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_i2c.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_io.cpp.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_linux_ssd_i2c.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_msp430_hw_spi.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_null.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_psoc5_ssd_hw_parallel.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_raspberrypi_hw_spi.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_raspberrypi_ssd_i2c.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_std_sw_spi.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_stm32duino_hw_spi.cpp.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_com_stm32duino_ssd_i2c.cpp.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_cursor.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_delay.cpp.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_a2_micro_printer.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_flipdisc_2x7.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_gprof.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_ht1632.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_ili9325d_320x240.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_ks0108_128x64.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_lc7981_160x80.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_lc7981_240x128.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_lc7981_240x64.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_lc7981_320x64.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_ld7032_60x32.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_null.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_pcd8544_84x48.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_pcf8812_96x65.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_sbn1661_122x32.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_ssd1306_128x32.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_ssd1306_128x64.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_ssd1306_64x48.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_ssd1309_128x64.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_ssd1322_nhd31oled_bw.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_ssd1322_nhd31oled_gr.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_ssd1325_nhd27oled_bw.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_ssd1325_nhd27oled_bw_new.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_ssd1325_nhd27oled_gr.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_ssd1325_nhd27oled_gr_new.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_ssd1327_96x96_gr.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_ssd1351_128x128.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_ssd1353_160x128.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_st7565_64128n.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_st7565_dogm128.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_st7565_dogm132.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_st7565_lm6059.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_st7565_lm6063.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_st7565_nhd_c12832.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_st7565_nhd_c12864.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_st7687_c144mvgd.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_st7920_128x64.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_st7920_192x32.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_st7920_202x32.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_t6963_128x128.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_t6963_128x64.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_t6963_240x128.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_t6963_240x64.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_tls8204_84x48.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_uc1601_c128032.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_uc1608_240x128.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_uc1608_240x64.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_uc1610_dogxl160.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_uc1611_dogm240.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_uc1611_dogxl240.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_uc1701_dogs102.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_dev_uc1701_mini12864.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_ellipse.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_font.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_font_data.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_line.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_ll_api.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_page.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_pb.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_pb14v1.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_pb16h1.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_pb16h2.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_pb16v1.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_pb16v2.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_pb32h1.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_pb8h1.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_pb8h1f.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_pb8h2.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_pb8h8.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_pb8v1.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_pb8v2.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_pbxh16.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_pbxh24.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_polygon.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_rect.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_rot.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_scale.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_state.c.o
+.piolibdeps/U8glib-HAL_ID1932/src/clib/u8g_rot.c:48:27: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+u8g_dev_t u8g_dev_rot = { u8g_dev_rot_dummy_fn, NULL, NULL };
+^
+.piolibdeps/U8glib-HAL_ID1932/src/clib/u8g_rot.c:48:27: note: (near initialization for 'u8g_dev_rot.dev_fn')
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_u16toa.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_u8toa.c.o
+Compiling .pioenvs/megaatmega2560/libeb9/U8glib-HAL_ID1932/clib/u8g_virtual_screen.c.o
+Compiling .pioenvs/megaatmega2560/lib3ab/LiquidCrystal_I2C_ID576/LiquidCrystal_I2C.cpp.o
+Compiling .pioenvs/megaatmega2560/lib3a6/TMC2130Stepper_ID1493/source/SW_SPI.cpp.o
+Compiling .pioenvs/megaatmega2560/lib3a6/TMC2130Stepper_ID1493/source/TMC2130Stepper.cpp.o
+Compiling .pioenvs/megaatmega2560/lib3a6/TMC2130Stepper_ID1493/source/TMC2130Stepper_CHOPCONF.cpp.o
+Archiving .pioenvs/megaatmega2560/lib3ab/libLiquidCrystal_I2C_ID576.a
+Compiling .pioenvs/megaatmega2560/lib3a6/TMC2130Stepper_ID1493/source/TMC2130Stepper_COOLCONF.cpp.o
+Indexing .pioenvs/megaatmega2560/lib3ab/libLiquidCrystal_I2C_ID576.a
+Compiling .pioenvs/megaatmega2560/lib3a6/TMC2130Stepper_ID1493/source/TMC2130Stepper_DRV_STATUS.cpp.o
+Compiling .pioenvs/megaatmega2560/lib3a6/TMC2130Stepper_ID1493/source/TMC2130Stepper_GCONF.cpp.o
+Compiling .pioenvs/megaatmega2560/lib3a6/TMC2130Stepper_ID1493/source/TMC2130Stepper_IHOLD_IRUN.cpp.o
+Compiling .pioenvs/megaatmega2560/lib3a6/TMC2130Stepper_ID1493/source/TMC2130Stepper_PWMCONF.cpp.o
+Compiling .pioenvs/megaatmega2560/lib116/TMC2208Stepper/source/TMC2208Stepper.cpp.o
+Compiling .pioenvs/megaatmega2560/lib116/TMC2208Stepper/source/TMC2208Stepper_CHOPCONF.cpp.o
+Archiving .pioenvs/megaatmega2560/lib3a6/libTMC2130Stepper_ID1493.a
+Compiling .pioenvs/megaatmega2560/lib116/TMC2208Stepper/source/TMC2208Stepper_DRVSTATUS.cpp.o
+Compiling .pioenvs/megaatmega2560/lib116/TMC2208Stepper/source/TMC2208Stepper_GCONF.cpp.o
+Indexing .pioenvs/megaatmega2560/lib3a6/libTMC2130Stepper_ID1493.a
+Archiving .pioenvs/megaatmega2560/libeb9/libU8glib-HAL_ID1932.a
+Compiling .pioenvs/megaatmega2560/lib116/TMC2208Stepper/source/TMC2208Stepper_OTP_READ.cpp.o
+Compiling .pioenvs/megaatmega2560/lib116/TMC2208Stepper/source/TMC2208Stepper_PWMCONF.cpp.o
+Compiling .pioenvs/megaatmega2560/lib9d0/Adafruit NeoPixel_ID28/Adafruit_NeoPixel.cpp.o
+Indexing .pioenvs/megaatmega2560/libeb9/libU8glib-HAL_ID1932.a
+Compiling .pioenvs/megaatmega2560/lib9d0/Adafruit NeoPixel_ID28/esp8266.c.o
+Archiving .pioenvs/megaatmega2560/lib116/libTMC2208Stepper.a
+Compiling .pioenvs/megaatmega2560/lib72a/30aa480/LiquidTWI2.cpp.o
+Compiling .pioenvs/megaatmega2560/lib570/Arduino-L6470/L6470.cpp.o
+Archiving .pioenvs/megaatmega2560/lib9d0/libAdafruit NeoPixel_ID28.a
+Indexing .pioenvs/megaatmega2560/lib116/libTMC2208Stepper.a
+Archiving .pioenvs/megaatmega2560/lib72a/lib30aa480.a
+.piolibdeps/Arduino-L6470/src/L6470.cpp: In member function 'void L6470::setMicroSteps(int)':
+.piolibdeps/Arduino-L6470/src/L6470.cpp:101:38: warning: suggest parentheses around operand of '!' or change '|' to '||' or '!' to '~' [-Wparentheses]
+SetParam(L6470_STEP_MODE, !SYNC_EN | stepVal | SYNC_SEL_1);
+^
+Indexing .pioenvs/megaatmega2560/lib9d0/libAdafruit NeoPixel_ID28.a
+Archiving .pioenvs/megaatmega2560/lib570/libArduino-L6470.a
+Compiling .pioenvs/megaatmega2560/lib098/c1921b4/TMC26XStepper.cpp.o
+Indexing .pioenvs/megaatmega2560/lib72a/lib30aa480.a
+Compiling .pioenvs/megaatmega2560/lib59b/SoftwareSerial/SoftwareSerial.cpp.o
+Indexing .pioenvs/megaatmega2560/lib570/libArduino-L6470.a
+Archiving .pioenvs/megaatmega2560/lib098/libc1921b4.a
+Compiling .pioenvs/megaatmega2560/lib652/LiquidCrystal/LiquidCrystal.cpp.o
+Archiving .pioenvs/megaatmega2560/libFrameworkArduinoVariant.a
+Archiving .pioenvs/megaatmega2560/lib59b/libSoftwareSerial.a
+Indexing .pioenvs/megaatmega2560/lib098/libc1921b4.a
+Indexing .pioenvs/megaatmega2560/libFrameworkArduinoVariant.a
+Archiving .pioenvs/megaatmega2560/lib652/libLiquidCrystal.a
+Indexing .pioenvs/megaatmega2560/lib59b/libSoftwareSerial.a
+Compiling .pioenvs/megaatmega2560/FrameworkArduino/CDC.cpp.o
+Compiling .pioenvs/megaatmega2560/FrameworkArduino/HardwareSerial.cpp.o
+Indexing .pioenvs/megaatmega2560/lib652/libLiquidCrystal.a
+Compiling .pioenvs/megaatmega2560/FrameworkArduino/HardwareSerial0.cpp.o
+Compiling .pioenvs/megaatmega2560/FrameworkArduino/HardwareSerial1.cpp.o
+Compiling .pioenvs/megaatmega2560/FrameworkArduino/HardwareSerial2.cpp.o
+Compiling .pioenvs/megaatmega2560/FrameworkArduino/HardwareSerial3.cpp.o
+Compiling .pioenvs/megaatmega2560/FrameworkArduino/IPAddress.cpp.o
+Compiling .pioenvs/megaatmega2560/FrameworkArduino/PluggableUSB.cpp.o
+Compiling .pioenvs/megaatmega2560/FrameworkArduino/Print.cpp.o
+Compiling .pioenvs/megaatmega2560/FrameworkArduino/Stream.cpp.o
+Compiling .pioenvs/megaatmega2560/FrameworkArduino/Tone.cpp.o
+Compiling .pioenvs/megaatmega2560/FrameworkArduino/USBCore.cpp.o
+Compiling .pioenvs/megaatmega2560/FrameworkArduino/WInterrupts.c.o
+Compiling .pioenvs/megaatmega2560/FrameworkArduino/WMath.cpp.o
+Compiling .pioenvs/megaatmega2560/FrameworkArduino/WString.cpp.o
+Compiling .pioenvs/megaatmega2560/FrameworkArduino/abi.cpp.o
+Compiling .pioenvs/megaatmega2560/FrameworkArduino/hooks.c.o
+Compiling .pioenvs/megaatmega2560/FrameworkArduino/main.cpp.o
+Compiling .pioenvs/megaatmega2560/FrameworkArduino/new.cpp.o
+Compiling .pioenvs/megaatmega2560/FrameworkArduino/wiring.c.o
+Compiling .pioenvs/megaatmega2560/FrameworkArduino/wiring_analog.c.o
+Compiling .pioenvs/megaatmega2560/FrameworkArduino/wiring_digital.c.o
+Compiling .pioenvs/megaatmega2560/FrameworkArduino/wiring_pulse.S.o
+Compiling .pioenvs/megaatmega2560/FrameworkArduino/wiring_pulse.c.o
+Compiling .pioenvs/megaatmega2560/FrameworkArduino/wiring_shift.c.o
+Archiving .pioenvs/megaatmega2560/libFrameworkArduino.a
+Indexing .pioenvs/megaatmega2560/libFrameworkArduino.a
+Linking .pioenvs/megaatmega2560/firmware.elf
+Checking size .pioenvs/megaatmega2560/firmware.elf
+Building .pioenvs/megaatmega2560/firmware.hex
+Memory Usage -> http://bit.ly/pio-memory-usage
+DATA:    [======    ]  61.8% (used 5060 bytes from 8192 bytes)
+PROGRAM: [======    ]  63.6% (used 161620 bytes from 253952 bytes)
+=================================================== [SUCCESS] Took 35.35 seconds ===================================================
+
+============================================================ [SUMMARY] ============================================================
+Environment megaatmega2560      	[SUCCESS]
+Environment megaatmega1280      	[SKIP]
+Environment at90USB1286_CDC     	[SKIP]
+Environment at90USB1286_DFU     	[SKIP]
+Environment melzi               	[SKIP]
+Environment melzi_optiboot      	[SKIP]
+Environment rambo               	[SKIP]
+Environment sanguino_atmega644p 	[SKIP]
+Environment sanguino_atmega1284p	[SKIP]
+Environment teensy20            	[SKIP]
+=================================================== [SUCCESS] Took 35.35 seconds ===================================================
+261689af4d12fb725e121239cee009f60e61308bce31617a765b37fb1beaba9e  .pioenvs/megaatmega2560/firmware.hex

@@ -1,0 +1,342 @@
+Sun Dec 16 19:35:43 UTC 2018
+
+Processing sanguino_atmega1284p (platform: atmelavr; board: sanguino_atmega1284p; framework: arduino)
+------------------------------------------------------------------------------------------------------------------------------------
+LibraryManager: Installing dev
+Downloading...
+Unpacking
+Unpacking
+LibraryManager: Installing id=576 @ 1.1.2
+Unpacking
+Unpacking
+LibraryManager: Installing id=1493
+Unpacking
+Unpacking
+LibraryManager: Installing v0.1.1
+Unpacking
+Unpacking
+LibraryManager: Installing id=28 @ 1.1.3
+Unpacking
+Unpacking
+LibraryManager: Installing 30aa480
+Unpacking
+Unpacking
+LibraryManager: Installing master
+Unpacking
+Unpacking
+LibraryManager: Installing c1921b4
+Unpacking
+Unpacking
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/atmelavr/sanguino_atmega1284p.html
+PLATFORM: Atmel AVR > Sanguino ATmega1284p (16MHz)
+HARDWARE: ATMEGA1284P 16MHz 16KB RAM (127KB Flash)
+Converting Marlin.ino
+Library Dependency Finder -> http://bit.ly/configure-pio-ldf
+LDF MODES: FINDER(chain) COMPATIBILITY(soft)
+Collected 32 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- <U8glib-HAL> 0.4
+|   |-- <SPI> 1.0
+|   |-- <Wire> 1.0
+|-- <LiquidCrystal_I2C>
+|   |-- <Wire> 1.0
+|-- <TMC2130Stepper> 2.5.0
+|   |-- <SPI> 1.0
+|-- <TMC2208Stepper> 0.1.1
+|-- <Adafruit NeoPixel> 1.1.3
+|-- <30aa480>
+|   |-- <Wire> 1.0
+|-- <Arduino-L6470> 0.6.2
+|   |-- <SPI> 1.0
+|-- <c1921b4>
+|   |-- <SPI> 1.0
+|-- <SoftwareSerial> 1.0
+|-- <Wire> 1.0
+|-- <LiquidCrystal> 1.0.5
+|-- <SPI> 1.0
+Compiling .pioenvs/sanguino_atmega1284p/src/G26_Mesh_Validation_Tool.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/I2CPositionEncoder.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/M100_Free_Mem_Chk.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/Marlin.ino.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/MarlinSerial.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/Marlin_main.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/Max7219_Debug_LEDs.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/Sd2Card.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/SdBaseFile.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/SdFatUtil.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/SdFile.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/SdVolume.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/blinkm.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/cardreader.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/configuration_store.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/dac_mcp4728.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/digipot_mcp4018.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/digipot_mcp4451.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/emergency_parser.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/endstops.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/fwretract.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/hex_print_routines.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/least_squares_fit.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/leds.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/malyanlcd.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/mesh_bed_leveling.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/neopixel.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/nozzle.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/parser.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/pca9632.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/planner.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/planner_bezier.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/power.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/power_loss_recovery.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/printcounter.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/runout.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/serial.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/servo.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/stepper.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/stepper_dac.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/stepper_indirection.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/stopwatch.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/temperature.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/tmc_util.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/twibus.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/ubl.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/ubl_G29.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/ubl_motion.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/ultralcd.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/utility.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/vector_3.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/src/watchdog.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/libfda/SPI/SPI.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/libdb7/Wire/Wire.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/libdb7/Wire/utility/twi.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/U8glib.cpp.o
+Archiving .pioenvs/sanguino_atmega1284p/libfda/libSPI.a
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/U8glibPrint.cpp.o
+Archiving .pioenvs/sanguino_atmega1284p/libdb7/libWire.a
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/chessengine.c.o
+Indexing .pioenvs/sanguino_atmega1284p/libfda/libSPI.a
+Indexing .pioenvs/sanguino_atmega1284p/libdb7/libWire.a
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_bitmap.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_circle.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_clip.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_api.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_api_16gr.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_arduino_attiny85_hw_spi.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_arduino_common.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_arduino_fast_parallel.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_arduino_hw_spi.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_arduino_hw_usart_spi.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_arduino_no_en_parallel.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_arduino_parallel.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_arduino_port_d_wr.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_arduino_ssd_i2c.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_arduino_st7920_custom.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_arduino_st7920_hw_spi.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_arduino_st7920_spi.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_arduino_std_sw_spi.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_arduino_sw_spi.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_arduino_t6963.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_arduino_uc_i2c.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_atmega_hw_spi.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_atmega_parallel.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_atmega_st7920_hw_spi.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_atmega_st7920_spi.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_atmega_sw_spi.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_atxmega_hw_spi.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_atxmega_st7920_hw_spi.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_i2c.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_io.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_linux_ssd_i2c.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_msp430_hw_spi.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_null.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_psoc5_ssd_hw_parallel.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_raspberrypi_hw_spi.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_raspberrypi_ssd_i2c.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_std_sw_spi.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_stm32duino_hw_spi.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_com_stm32duino_ssd_i2c.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_cursor.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_delay.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_a2_micro_printer.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_flipdisc_2x7.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_gprof.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_ht1632.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_ili9325d_320x240.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_ks0108_128x64.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_lc7981_160x80.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_lc7981_240x128.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_lc7981_240x64.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_lc7981_320x64.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_ld7032_60x32.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_null.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_pcd8544_84x48.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_pcf8812_96x65.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_sbn1661_122x32.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_ssd1306_128x32.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_ssd1306_128x64.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_ssd1306_64x48.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_ssd1309_128x64.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_ssd1322_nhd31oled_bw.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_ssd1322_nhd31oled_gr.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_ssd1325_nhd27oled_bw.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_ssd1325_nhd27oled_bw_new.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_ssd1325_nhd27oled_gr.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_ssd1325_nhd27oled_gr_new.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_ssd1327_96x96_gr.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_ssd1351_128x128.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_ssd1353_160x128.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_st7565_64128n.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_st7565_dogm128.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_st7565_dogm132.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_st7565_lm6059.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_st7565_lm6063.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_st7565_nhd_c12832.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_st7565_nhd_c12864.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_st7687_c144mvgd.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_st7920_128x64.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_st7920_192x32.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_st7920_202x32.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_t6963_128x128.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_t6963_128x64.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_t6963_240x128.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_t6963_240x64.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_tls8204_84x48.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_uc1601_c128032.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_uc1608_240x128.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_uc1608_240x64.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_uc1610_dogxl160.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_uc1611_dogm240.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_uc1611_dogxl240.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_uc1701_dogs102.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_dev_uc1701_mini12864.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_ellipse.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_font.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_font_data.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_line.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_ll_api.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_page.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_pb.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_pb14v1.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_pb16h1.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_pb16h2.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_pb16v1.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_pb16v2.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_pb32h1.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_pb8h1.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_pb8h1f.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_pb8h2.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_pb8h8.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_pb8v1.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_pb8v2.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_pbxh16.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_pbxh24.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_polygon.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_rect.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_rot.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_scale.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_state.c.o
+.piolibdeps/U8glib-HAL_ID1932/src/clib/u8g_rot.c:48:27: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+u8g_dev_t u8g_dev_rot = { u8g_dev_rot_dummy_fn, NULL, NULL };
+^
+.piolibdeps/U8glib-HAL_ID1932/src/clib/u8g_rot.c:48:27: note: (near initialization for 'u8g_dev_rot.dev_fn')
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_u16toa.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_u8toa.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib20f/U8glib-HAL_ID1932/clib/u8g_virtual_screen.c.o
+Compiling .pioenvs/sanguino_atmega1284p/lib8a8/LiquidCrystal_I2C_ID576/LiquidCrystal_I2C.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/lib575/TMC2130Stepper_ID1493/source/SW_SPI.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/lib575/TMC2130Stepper_ID1493/source/TMC2130Stepper.cpp.o
+Archiving .pioenvs/sanguino_atmega1284p/lib8a8/libLiquidCrystal_I2C_ID576.a
+Compiling .pioenvs/sanguino_atmega1284p/lib575/TMC2130Stepper_ID1493/source/TMC2130Stepper_CHOPCONF.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/lib575/TMC2130Stepper_ID1493/source/TMC2130Stepper_COOLCONF.cpp.o
+Indexing .pioenvs/sanguino_atmega1284p/lib8a8/libLiquidCrystal_I2C_ID576.a
+Compiling .pioenvs/sanguino_atmega1284p/lib575/TMC2130Stepper_ID1493/source/TMC2130Stepper_DRV_STATUS.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/lib575/TMC2130Stepper_ID1493/source/TMC2130Stepper_GCONF.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/lib575/TMC2130Stepper_ID1493/source/TMC2130Stepper_IHOLD_IRUN.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/lib575/TMC2130Stepper_ID1493/source/TMC2130Stepper_PWMCONF.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/lib46b/TMC2208Stepper/source/TMC2208Stepper.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/lib46b/TMC2208Stepper/source/TMC2208Stepper_CHOPCONF.cpp.o
+Archiving .pioenvs/sanguino_atmega1284p/lib575/libTMC2130Stepper_ID1493.a
+Compiling .pioenvs/sanguino_atmega1284p/lib46b/TMC2208Stepper/source/TMC2208Stepper_DRVSTATUS.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/lib46b/TMC2208Stepper/source/TMC2208Stepper_GCONF.cpp.o
+Indexing .pioenvs/sanguino_atmega1284p/lib575/libTMC2130Stepper_ID1493.a
+Compiling .pioenvs/sanguino_atmega1284p/lib46b/TMC2208Stepper/source/TMC2208Stepper_OTP_READ.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/lib46b/TMC2208Stepper/source/TMC2208Stepper_PWMCONF.cpp.o
+Archiving .pioenvs/sanguino_atmega1284p/lib20f/libU8glib-HAL_ID1932.a
+Compiling .pioenvs/sanguino_atmega1284p/lib01e/Adafruit NeoPixel_ID28/Adafruit_NeoPixel.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/lib01e/Adafruit NeoPixel_ID28/esp8266.c.o
+Archiving .pioenvs/sanguino_atmega1284p/lib46b/libTMC2208Stepper.a
+Indexing .pioenvs/sanguino_atmega1284p/lib20f/libU8glib-HAL_ID1932.a
+Compiling .pioenvs/sanguino_atmega1284p/lib4e1/30aa480/LiquidTWI2.cpp.o
+Archiving .pioenvs/sanguino_atmega1284p/lib01e/libAdafruit NeoPixel_ID28.a
+Indexing .pioenvs/sanguino_atmega1284p/lib46b/libTMC2208Stepper.a
+Compiling .pioenvs/sanguino_atmega1284p/libfe1/Arduino-L6470/L6470.cpp.o
+Archiving .pioenvs/sanguino_atmega1284p/lib4e1/lib30aa480.a
+Indexing .pioenvs/sanguino_atmega1284p/lib01e/libAdafruit NeoPixel_ID28.a
+Compiling .pioenvs/sanguino_atmega1284p/lib907/c1921b4/TMC26XStepper.cpp.o
+.piolibdeps/Arduino-L6470/src/L6470.cpp: In member function 'void L6470::setMicroSteps(int)':
+.piolibdeps/Arduino-L6470/src/L6470.cpp:101:38: warning: suggest parentheses around operand of '!' or change '|' to '||' or '!' to '~' [-Wparentheses]
+SetParam(L6470_STEP_MODE, !SYNC_EN | stepVal | SYNC_SEL_1);
+^
+Archiving .pioenvs/sanguino_atmega1284p/libfe1/libArduino-L6470.a
+Indexing .pioenvs/sanguino_atmega1284p/lib4e1/lib30aa480.a
+Compiling .pioenvs/sanguino_atmega1284p/lib59b/SoftwareSerial/SoftwareSerial.cpp.o
+Archiving .pioenvs/sanguino_atmega1284p/lib907/libc1921b4.a
+Indexing .pioenvs/sanguino_atmega1284p/libfe1/libArduino-L6470.a
+Compiling .pioenvs/sanguino_atmega1284p/lib652/LiquidCrystal/LiquidCrystal.cpp.o
+Archiving .pioenvs/sanguino_atmega1284p/lib59b/libSoftwareSerial.a
+Indexing .pioenvs/sanguino_atmega1284p/lib907/libc1921b4.a
+Archiving .pioenvs/sanguino_atmega1284p/libFrameworkArduinoVariant.a
+Archiving .pioenvs/sanguino_atmega1284p/lib652/libLiquidCrystal.a
+Indexing .pioenvs/sanguino_atmega1284p/lib59b/libSoftwareSerial.a
+Compiling .pioenvs/sanguino_atmega1284p/FrameworkArduino/CDC.cpp.o
+Indexing .pioenvs/sanguino_atmega1284p/libFrameworkArduinoVariant.a
+Indexing .pioenvs/sanguino_atmega1284p/lib652/libLiquidCrystal.a
+Compiling .pioenvs/sanguino_atmega1284p/FrameworkArduino/HardwareSerial.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/FrameworkArduino/HardwareSerial0.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/FrameworkArduino/HardwareSerial1.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/FrameworkArduino/HardwareSerial2.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/FrameworkArduino/HardwareSerial3.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/FrameworkArduino/IPAddress.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/FrameworkArduino/PluggableUSB.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/FrameworkArduino/Print.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/FrameworkArduino/Stream.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/FrameworkArduino/Tone.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/FrameworkArduino/USBCore.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/FrameworkArduino/WInterrupts.c.o
+Compiling .pioenvs/sanguino_atmega1284p/FrameworkArduino/WMath.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/FrameworkArduino/WString.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/FrameworkArduino/abi.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/FrameworkArduino/hooks.c.o
+Compiling .pioenvs/sanguino_atmega1284p/FrameworkArduino/main.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/FrameworkArduino/new.cpp.o
+Compiling .pioenvs/sanguino_atmega1284p/FrameworkArduino/wiring.c.o
+Compiling .pioenvs/sanguino_atmega1284p/FrameworkArduino/wiring_analog.c.o
+Compiling .pioenvs/sanguino_atmega1284p/FrameworkArduino/wiring_digital.c.o
+Compiling .pioenvs/sanguino_atmega1284p/FrameworkArduino/wiring_pulse.S.o
+Compiling .pioenvs/sanguino_atmega1284p/FrameworkArduino/wiring_pulse.c.o
+Compiling .pioenvs/sanguino_atmega1284p/FrameworkArduino/wiring_shift.c.o
+Archiving .pioenvs/sanguino_atmega1284p/libFrameworkArduino.a
+Indexing .pioenvs/sanguino_atmega1284p/libFrameworkArduino.a
+Linking .pioenvs/sanguino_atmega1284p/firmware.elf
+Building .pioenvs/sanguino_atmega1284p/firmware.hex
+Checking size .pioenvs/sanguino_atmega1284p/firmware.elf
+Memory Usage -> http://bit.ly/pio-memory-usage
+DATA:    [===       ]  26.6% (used 4366 bytes from 16384 bytes)
+PROGRAM: [========  ]  84.6% (used 110056 bytes from 130048 bytes)
+=================================================== [SUCCESS] Took 34.77 seconds ===================================================
+
+============================================================ [SUMMARY] ============================================================
+Environment megaatmega2560      	[SKIP]
+Environment megaatmega1280      	[SKIP]
+Environment at90USB1286_CDC     	[SKIP]
+Environment at90USB1286_DFU     	[SKIP]
+Environment melzi               	[SKIP]
+Environment melzi_optiboot      	[SKIP]
+Environment rambo               	[SKIP]
+Environment sanguino_atmega644p 	[SKIP]
+Environment sanguino_atmega1284p	[SUCCESS]
+Environment teensy20            	[SKIP]
+=================================================== [SUCCESS] Took 34.77 seconds ===================================================
+141e0419b0747b37366b2a4f504d01fd5c4982bffee61669f9e4f91242830134  .pioenvs/sanguino_atmega1284p/firmware.hex
