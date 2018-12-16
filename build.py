@@ -60,6 +60,11 @@ class App:
         return version_string, dump_output
 
     def build_marlin(self, manufacturer, printer, printer_dir, printer_config):
+        output_file = printer_dir / '{}_{}_{}.hex'.format(manufacturer, printer, self.version_string)
+        if output_file.exists():
+            print('Marlin already built for {} {}'.format(manufacturer, printer))
+            return output_file
+
         with TemporaryDirectory() as build_dir:
             print('Building Marlin for {} {} in {}'.format(manufacturer, printer, build_dir))
 
@@ -87,7 +92,6 @@ class App:
             with open(printer_dir / '{}.stderr.log'.format(self.version_string), 'wb') as f:
                 f.write(stderr)
 
-            output_file = printer_dir / '{}_{}_{}.hex'.format(manufacturer, printer, self.version_string)
             shutil.copy(Path(build_dir) / '.pioenvs' / env / 'firmware.hex', output_file)
             return output_file
 
